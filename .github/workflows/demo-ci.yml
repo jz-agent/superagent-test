@@ -9,7 +9,5 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - name: demo failing check
-        run: |
-          echo "superagent 演示：这个检查故意失败，请修好它让 CI 变绿。"
-          exit 1
+      - name: demo check
+        run: echo "ok"
