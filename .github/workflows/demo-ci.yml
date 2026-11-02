@@ -9,7 +9,5 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - name: demo failing check
-        run: |
-          echo "这是 superagent 演示用的失败检查：修好它，CI 就会通过。"
-          exit 1
+      - name: demo check
+        run: echo "ok"
